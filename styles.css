@@ -1,1 +1,36 @@
 
+h1 {
+ text-align: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#container { 
+    box-sizing: border-box;
+       display: flex;
+       flex: auto;
+       justify-content: space-around;
+     flex-wrap: wrap;
+      margin:auto;
+    aspect-ratio: 1/1;
+  }
+
+.divs{
+  border: solid rgba(211, 211, 211, 0.24) 1px;
+background-color: white;
+box-sizing: border-box;
+
+  
+}
+
+#clear {
+  display: flex;
+margin: 10px auto;
+}
+
+#controls {
+  display: flex;
+  margin: 21px auto;
+  flex: auto;
+  justify-content: center;
+  gap: 6px;
+}
