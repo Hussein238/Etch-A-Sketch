@@ -1,6 +1,6 @@
 const container = document.getElementById("container");
 
-    const conWidth = 300;
+    const conWidth = 700;
     
    container.style.width = conWidth + "px";
    
