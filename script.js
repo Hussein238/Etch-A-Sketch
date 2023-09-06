@@ -59,33 +59,26 @@ container.addEventListener('mouseover', (a) => {
     a.target.style.backgroundColor =  "black";
 
 });
+// practice 
 
+// before the call
+let menu = {
+    width: 200,
+    height: 300,
+    title: "My menu"
+  };
+  
+  function multiplyNumeric(obj){
+    for (let key in obj){
+        if (typeof obj[key] === 'number'){
+        obj[key] = obj[key] * 2;    
+        }
+    }
+  }
 
-/*const button = document.createElement('button'); // make a colour button
-button.innerText = 'colour';
-button.classList.add('button');
-document.body.appendChild(button);  // changes to a random colour 
+  const myNotification = new Notification("Hello!");
 
-
-button.addEventListener('click', () => {
-     randomColour();
-     
-     
-});
-*/
-
-/*function clear() {
-    const eachSquare = document.querySelector('#clear');
-   return eachSquare.style.backgroundColor = "red";
-    
-};
-
-const clearBtn = document.getElementById('clear');
-clearBtn.addEventListener('click', clear(red));
-
-    function changeColor (){
-*/
-
-
-
-
+  
+  multiplyNumeric(menu);
+  
+  // after the call
